@@ -1,13 +1,12 @@
 package herencia;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+import vehiculos.Auto;
+import vehiculos.Moto;
+import vehiculos.Vehiculo;
 
 /**
- *
- * @author maxi
+ * @author Maximiliano Orellana mi perfil en GitHub:
+ * https://github.com/orellana-max
  */
 public class Principal {
 
@@ -16,12 +15,21 @@ public class Principal {
      */
     public static void main(String[] args) {
 
+        Vehiculo v = new Vehiculo();
+        // vemos que no se puede acceder al atributo marca xq estan en otro paquete
+        // aunque este este protected
+        //System.out.println(v.marca);
+        
+        
         Auto a = new Auto();
         a.acelerar();
         
         Moto m = new Moto();
         m.hacerWheliee();
         
+        
+       // m.chequearMotor();
+        m.encender();
         
     }
     
