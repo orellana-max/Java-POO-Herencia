@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>296</x><y>96</y><w>136</w><h>136</h></coordinates><panel_attributes>Vehiculo
+--
++marca : String
++modelo: String
++patente: String
+--
++ acelerar : void
++ frenar : void
++ encender : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>312</y><w>152</w><h>152</h></coordinates><panel_attributes>Auto
+--
++ tieneAire : boolean
+--
++ prenderAire(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>392</x><y>312</y><w>144</w><h>152</h></coordinates><panel_attributes>Moto
+--
++ anchoDeManubrio: int
+--
++ hacerWheelie(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>272</x><y>224</y><w>120</w><h>104</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;130;50;10;50;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>368</x><y>224</y><w>128</w><h>104</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;140;50;140;110</additional_attributes></element></diagram>

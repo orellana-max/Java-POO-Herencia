@@ -1,0 +1,10 @@
+# Java_POO_Herencia
+Aprendiendo Herencia POO en Java con Charly Cimino
+Enlace al video: https://youtu.be/wVE9o9lnfzA
+
+Aprendiendo Herencia En POO Con Java desde el canal de youtube de Charly Cimino.
+se usa la web https://www.umletino.com/umletino.html para modelar UML del sistema que desarrollaremos de ejemplo.
+
+Se crea un sistema simple sobre Auto y Moto que heredan sus atributos de la clase padre, o super clase Vehiculo
+
+
