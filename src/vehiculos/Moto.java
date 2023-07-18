@@ -8,6 +8,11 @@ package vehiculos;
 public class Moto extends Vehiculo {
     
     private int anchoDeManubrio;
+
+    public Moto(int anchoDeManubrio, String marca, String modelo, String patente) {
+        super(marca, modelo, patente);
+        this.anchoDeManubrio = anchoDeManubrio;
+    }
     
     public void hacerWheliee(){
         // codigo para ver si se tiene visibilidad del atributo marca heredado

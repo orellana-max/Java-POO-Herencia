@@ -9,7 +9,7 @@ import vehiculos.Vehiculo;
 public class OtraClase {
     
     public OtraClase(){
-        Vehiculo v = new Vehiculo();
+        //Vehiculo v = new Vehiculo();
         // vemos que no se puede acceder al atributo marca xq estan en otro paquete
         // aunque este este protected
         //System.out.println(v.marca);

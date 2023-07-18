@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>30</y><w>170</w><h>210</h></coordinates><panel_attributes>Vehiculo
+--
+
+# marca : String
+# modelo: String
+# patente: String
+
+--
+
++ acelerar( ) : void
++ frenar( ) : void
++ encender( ) : void
++ getMarca( ) : String
+- chequearMotor( ) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>340</y><w>190</w><h>190</h></coordinates><panel_attributes>Auto
+--
+
++ tieneAire : boolean
+
+--
+
++ prenderAire( ): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>340</y><w>180</w><h>190</h></coordinates><panel_attributes>Moto
+--
+
+- anchoDeManubrio: int
+
+--
+
++ hacerWheelie(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>230</y><w>150</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;130;50;10;50;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>230</y><w>160</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;140;50;140;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>70</y><w>210</w><h>120</h></coordinates><panel_attributes>Principal
+
+--
+--
+_+ main(String [] ) : void_
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>320</y><w>210</w><h>120</h></coordinates><panel_attributes>OtraClase
+
+--
+--
++ OtraClase ()</panel_attributes><additional_attributes></additional_attributes></element></diagram>

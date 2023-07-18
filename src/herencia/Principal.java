@@ -15,16 +15,16 @@ public class Principal {
      */
     public static void main(String[] args) {
 
-        Vehiculo v = new Vehiculo();
+        //Vehiculo v = new Vehiculo();
         // vemos que no se puede acceder al atributo marca xq estan en otro paquete
         // aunque este este protected
         //System.out.println(v.marca);
         
         
-        Auto a = new Auto();
+        Auto a = new Auto(true, "Ford", "Mustang", "MD 007 XD");
         a.acelerar();
         
-        Moto m = new Moto();
+        Moto m = new Moto(50, "Bajaj", "Rouser 135", "789 MDO");
         m.hacerWheliee();
         
         

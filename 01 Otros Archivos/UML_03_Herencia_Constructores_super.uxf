@@ -1,0 +1,50 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>Relation</id><coordinates><x>280</x><y>240</y><w>120</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;130;30;10;30;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>240</y><w>128</w><h>88</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;30;140;30;140;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>184</x><y>40</y><w>392</w><h>440</h></coordinates><panel_attributes>Package vehiculos
+--
+bg=transparent</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>640</x><y>40</y><w>216</w><h>304</h></coordinates><panel_attributes>Package herencia
+--
+bg=transparent</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>304</x><y>80</y><w>160</w><h>168</h></coordinates><panel_attributes>Vehiculo
+--
+- marca : String
+- modelo: String
+- patente: String
+--
+
++ Vehiculo(String, String, String)
+
++ acelerar( ) : void
++ frenar( ) : void
++ encender( ) : void
++ getMarca( ) : String
++ setMarca(String) : void
+# chequearMotor( ) : void
+
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>408</x><y>312</y><w>160</w><h>120</h></coordinates><panel_attributes>Moto
+--
+
+- anchoDeManubrio: int
+--
+
++ Moto(int, String, String, String)
+
++ hacerWheelie(): void
+
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>312</y><w>176</w><h>120</h></coordinates><panel_attributes>Auto
+--
+
++ tieneAire : boolean
+--
+
++ Auto(boolean, String, String, String)
+
++ prenderAire( ): void
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>664</x><y>80</y><w>168</w><h>96</h></coordinates><panel_attributes>Principal
+--
+--
+
+_+ main(String [] ) : void_
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>664</x><y>208</y><w>168</w><h>96</h></coordinates><panel_attributes>OtraClase
+--
+--
+
++ OtraClase ()</panel_attributes><additional_attributes></additional_attributes></element></diagram>

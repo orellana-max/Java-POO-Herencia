@@ -4,6 +4,7 @@ Enlace al video: https://youtu.be/wVE9o9lnfzA
 
 Aprendiendo Herencia En POO Con Java desde el canal de youtube de Charly Cimino.
 se usa la web https://www.umletino.com/umletino.html para modelar UML del sistema que desarrollaremos de ejemplo.
+en la carpeta 01 Otros Archivos se encuentran los archivos .uxf que se guardan desde la web umletino.com, como asi tambien estan las imagenes .png de las distintas etapas de desarrollo del sistema.
 
 Se crea un sistema simple sobre Auto y Moto que heredan sus atributos de la clase padre, o super clase Vehiculo
 
